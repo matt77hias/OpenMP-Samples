@@ -166,6 +166,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="samples\src\pi.hpp" />
     <ClInclude Include="samples\src\samples.hpp" />
     <ClInclude Include="samples\src\targetver.h" />
   </ItemGroup>

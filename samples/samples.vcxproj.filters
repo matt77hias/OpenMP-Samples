@@ -21,6 +21,9 @@
     <ClInclude Include="samples\src\samples.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="samples\src\pi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="samples\src\samples.cpp">
