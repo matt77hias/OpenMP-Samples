@@ -8,9 +8,9 @@ inline double pi_sequential(int nb_blocks = 1000) {
 	for (int i = 0; i < nb_blocks; ++i) {
 		const double a = i * dx;
 		const double b = a + dx;
-		const double fa = 1 / (1 + a*a);
-		const double fb = 1 / (1 + b*b);
-		integral += dx * (fa + fb) / 2;
+		const double fa = 1.0 / (1.0 + a*a);
+		const double fb = 1.0 / (1.0 + b*b);
+		integral += 0.5 * dx * (fa + fb);
 	}
 
 	return 4.0 * integral;
