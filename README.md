@@ -1,7 +1,7 @@
 # OpenMP-Samples
 
 ## About
-Some OpenMP Samples
+Some OpenMP Samples.
 
 ## Development
 * **Programming Language**: C++11
