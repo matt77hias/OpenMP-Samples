@@ -18,9 +18,6 @@
     <ClInclude Include="samples\src\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="samples\src\samples.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="samples\src\pi.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>

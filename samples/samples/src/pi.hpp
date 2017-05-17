@@ -1,7 +1,7 @@
 #pragma once
 
 // sequential pi calculation
-inline double pi_sequential(int nb_blocks = 1000) {
+inline double pi_sequential(int nb_blocks = 1000) noexcept {
 
 	const double dx = 1.0 / nb_blocks;
 
@@ -18,7 +18,7 @@ inline double pi_sequential(int nb_blocks = 1000) {
 }
 
 // parallel pi calculation with reduction directive
-inline double pi_parallel(int nb_blocks = 1000) {
+inline double pi_parallel(int nb_blocks = 1000) noexcept {
 
 	const double dx = 1.0 / nb_blocks;
 
@@ -36,7 +36,7 @@ inline double pi_parallel(int nb_blocks = 1000) {
 }
 
 // parallel pi calculation with critical directive
-inline double pi_parallel_no_reduction(int nb_blocks = 1000) {
+inline double pi_parallel_no_reduction(int nb_blocks = 1000) noexcept {
 
 	const double dx = 1.0 / nb_blocks;
 
