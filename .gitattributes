@@ -1,0 +1,10 @@
+* text=auto
+
+*.sln        text eol=crlf
+*.vcxproj    text eol=crlf
+*.filters    text eol=crlf
+*.user       text eol=crlf
+
+*.hpp        linguist-language=c++
+*.tpp        linguist-language=c++
+*.cpp        linguist-language=c++
