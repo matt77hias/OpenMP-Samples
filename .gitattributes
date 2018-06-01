@@ -8,3 +8,5 @@
 *.hpp        linguist-language=c++
 *.tpp        linguist-language=c++
 *.cpp        linguist-language=c++
+
+samples/**   linguist-documentation=false
