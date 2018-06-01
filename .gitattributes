@@ -1,12 +1,22 @@
+###############################################################################
+# Auto detect text files and perform LF normalization
+###############################################################################
 * text=auto
 
-*.sln        text eol=crlf
-*.vcxproj    text eol=crlf
-*.filters    text eol=crlf
-*.user       text eol=crlf
+###############################################################################
+# Explicitly declare CRLF normalization for the following files
+###############################################################################
 
-*.hpp        linguist-language=c++
-*.tpp        linguist-language=c++
-*.cpp        linguist-language=c++
+# Header Files
+*.h			text eol=crlf
+*.hpp		text eol=crlf
+*.inc		text eol=crlf
+*.inl		text eol=crlf
+*.tpp		text eol=crlf
+
+# Source Files
+*.c			text eol=crlf
+*.cc		text eol=crlf
+*.cpp		text eol=crlf
 
 samples/**   linguist-documentation=false
