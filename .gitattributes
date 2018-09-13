@@ -19,4 +19,4 @@
 *.cc		text eol=crlf
 *.cpp		text eol=crlf
 
-samples/** linguist-documentation=false
+Samples/** linguist-documentation=false
