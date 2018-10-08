@@ -1,4 +1,4 @@
-[![Code Quality][s2]][co] [![License][s3]][li]
+[![Code quality][s2]][co] [![License][s3]][li]
 
 [s2]: https://api.codacy.com/project/badge/Grade/6bfd1d26e23f4b3598f7bc9b255c6182
 [s3]: https://img.shields.io/badge/license-GPL%203.0-blue.svg
