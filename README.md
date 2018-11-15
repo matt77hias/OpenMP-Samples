@@ -11,7 +11,7 @@
 # OpenMP-Samples
 
 ## About
-Some OpenMP Samples.
+Samples for prototyping and experimenting with OpenMP.
 
 ## Development
 * **Platform**: (minimum) Windows 10 32 Bit and 64 Bit
