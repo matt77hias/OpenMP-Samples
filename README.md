@@ -16,5 +16,5 @@ Samples for prototyping and experimenting with OpenMP (Open Multi-Processing).
 ## Development
 * **Platform**: (minimum) Windows 10 32 Bit and 64 Bit
 * **Programming Language**: ISO C++ Latest Draft Standard (> C++17)
-* **Compiler**: MSVC++ 15.9.4
+* **Compiler**: MSVC++ 15.9.5
 * **IDE**: Visual Studio 2017
