@@ -21,7 +21,6 @@ inline double pi_sequential(int step_count) noexcept
 // parallel pi calculation with reduction directive
 inline double pi_parallel(int step_count) noexcept
 {
-
 	const double dx = 1.0 / step_count;
 
 	double integral = 0.0;
@@ -41,7 +40,6 @@ inline double pi_parallel(int step_count) noexcept
 // parallel pi calculation with critical directive
 inline double pi_parallel_no_reduction(int step_count) noexcept
 {
-
 	const double dx = 1.0 / step_count;
 
 	double integral = 0.0;
