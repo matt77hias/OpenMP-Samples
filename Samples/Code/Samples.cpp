@@ -2,8 +2,8 @@
 // Includes
 //-----------------------------------------------------------------------------
 
-// pi_parallel, pi_parallel_no_reduction, pi_sequential
-#include "pi.hpp"
+// Pi_Parallel, Pi_ParallelWithoutReduction, Pi_Sequential
+#include "Pi.hpp"
 
 //-----------------------------------------------------------------------------
 // System Includes
@@ -14,6 +14,9 @@
 // numeric_limits
 #include <limits>
 
+//-----------------------------------------------------------------------------
+// Declarations
+//-----------------------------------------------------------------------------
 int main()
 {
 	constexpr int a[] = { 100, 1000, 10000 };
@@ -22,15 +25,15 @@ int main()
 
 	for (int step_count : a)
 	{
-		std::cout << "pi: " << pi_sequential(step_count) << std::endl;
+		std::cout << "pi: " << Pi_Sequential(step_count) << std::endl;
 	}
 	for (int step_count : a)
 	{
-		std::cout << "pi: " << pi_parallel(step_count) << std::endl;
+		std::cout << "pi: " << Pi_Parallel(step_count) << std::endl;
 	}
 	for (int step_count : a)
 	{
-		std::cout << "pi: " << pi_parallel_no_reduction(step_count) << std::endl;
+		std::cout << "pi: " << Pi_ParallelWithoutReduction(step_count) << std::endl;
 	}
 
 	return 0;

@@ -1,7 +1,7 @@
 #pragma once
 
-// sequential pi calculation
-inline double pi_sequential(int step_count) noexcept
+// Sequential pi calculation
+inline double Pi_Sequential(int step_count) noexcept
 {
 	const double dx = 1.0 / step_count;
 
@@ -18,8 +18,8 @@ inline double pi_sequential(int step_count) noexcept
 	return 2.0 * dx * integral;
 }
 
-// parallel pi calculation with reduction directive
-inline double pi_parallel(int step_count) noexcept
+// Parallel pi calculation with reduction directive
+inline double Pi_Parallel(int step_count) noexcept
 {
 	const double dx = 1.0 / step_count;
 
@@ -37,8 +37,8 @@ inline double pi_parallel(int step_count) noexcept
 	return 2.0 * dx * integral;
 }
 
-// parallel pi calculation with critical directive
-inline double pi_parallel_no_reduction(int step_count) noexcept
+// Parallel pi calculation with critical directive
+inline double Pi_ParallelWithoutReduction(int step_count) noexcept
 {
 	const double dx = 1.0 / step_count;
 
