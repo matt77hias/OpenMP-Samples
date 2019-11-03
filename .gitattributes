@@ -1,5 +1,5 @@
 ###############################################################################
-# Explicitly declare programming languages for the following files
+# Explicitly declare documentation for the following files
 ###############################################################################
 
 Samples/**                                  linguist-documentation=false
