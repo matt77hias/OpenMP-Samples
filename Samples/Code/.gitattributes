@@ -33,7 +33,6 @@
 *.h++                                       linguist-language=C++
 *.inc                                       linguist-language=C++
 *.inl                                       linguist-language=C++
-*.tpp                                       linguist-language=C++
 
 # Source Files
 *.c                                         linguist-language=C
